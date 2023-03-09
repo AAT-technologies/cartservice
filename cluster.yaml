@@ -47,7 +47,7 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: delalixx/cartservice:latest
+        image: delalixx/cartservice:v1
         ports:
         - containerPort: 7070
         env:
